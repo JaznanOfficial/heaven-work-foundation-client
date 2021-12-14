@@ -5,8 +5,8 @@ import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <div>
-        <Navbar bg="light" expand="lg">
+        <div className='m-0 p-0'>
+        <Navbar bg="light" expand="lg" className='align-items-center justify-content-center m-0 p-0'>
         <Container className='mx-1 p-0'>
                     <Navbar.Brand href="#home" className='d-flex align-items-center justify-content-center'>
                     <img
@@ -18,9 +18,9 @@ const Navigation = () => {
                         /> <h2 className='nav-text m-0 p-0'> HEAVEN WORK</h2>
                     </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
-            <Nav className="align-items-center justify-content-center">
-              <Nav.Link href="#home">Home</Nav.Link>
+          <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end mx-0'>
+            <Nav className="align-items-center justify-content-center navigation-bar">
+              <Nav.Link href="#home" className='home-link'>Home</Nav.Link>
               <Nav.Link href="#link">Link</Nav.Link>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

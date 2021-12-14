@@ -2,3 +2,19 @@
     font-family: 'Raleway', sans-serif !important;
     font-weight: 700 !important;
 }
+.navigation-bar a{
+    font-weight: bold;
+    font-size: 20px !important;
+    margin: 0 10px !important;
+    padding: 0 !important;
+}
+
+.navigation-bar a:hover{
+    color: #22BA67 !important;
+    border-bottom: 1px solid #22BA67 !important;
+}
+.navigation-bar a:focus{
+    color: #22BA67 !important;
+    border-bottom: 1px solid #22BA67 !important;
+}
+
