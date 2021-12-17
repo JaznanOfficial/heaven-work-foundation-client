@@ -5,10 +5,10 @@ import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <div className='m-0 p-0'>
-        <Navbar bg="light" expand="lg" className='align-items-center justify-content-center m-0 p-0'>
+        <div>
+        <Navbar bg="light" expand="lg" className='align-items-center justify-content-center'>
         <Container className='mx-1 p-0'>
-                    <Navbar.Brand href="#home" className='d-flex align-items-center justify-content-center'>
+                    <Navbar.Brand href="#home" className='d-flex align-items-center justify-content-between'>
                     <img
                     alt=""
                     src={logo}
@@ -21,13 +21,28 @@ const Navigation = () => {
           <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end mx-0'>
             <Nav className="align-items-center justify-content-center navigation-bar">
               <Nav.Link href="#home" className='home-link'>Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              <Nav.Link href="#link">Donation</Nav.Link>
+              <NavDropdown title="Projects" id="basic-nav-dropdown">
+                
+                <NavDropdown.Item href="#action/3.2">Zakat Projects</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Winter Project</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">Summer Project</NavDropdown.Item>
+                
+              </NavDropdown>
+              <NavDropdown title="Media" id="basic-nav-dropdown">
+               
+                <NavDropdown.Item href="#action/3.2">Photos</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Videos</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">Press</NavDropdown.Item>
+                
+              </NavDropdown>
+              <NavDropdown title="About" id="basic-nav-dropdown">
+                
+                <NavDropdown.Item href="#action/3.2">About Us</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Contact Us</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">Audit Report</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">Terms and Condition</NavDropdown.Item>
+                
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
