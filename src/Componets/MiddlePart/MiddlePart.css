@@ -1,0 +1,12 @@
+.carousel-control-prev-icon{
+    background-image: url('./prev.jpg') !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: 50% !important;
+}
+.carousel-control-next-icon{
+    background-image: url('./next.jpg') !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: 50% !important;
+}
