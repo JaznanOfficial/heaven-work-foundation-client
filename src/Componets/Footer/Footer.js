@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import Typical from 'react-typical';
-import ScrollToTop from "react-scroll-to-top";
+
 import './Footer.css'
 
 const Footer = () => {
@@ -34,7 +34,7 @@ const Footer = () => {
             </Row>
             <h6> Developed by <br /><a href="https://md-abdur-rahman-portfolio.netlify.app/" className='text-success developer' target='_blank'>&lt;&#47; Md Abdur Rahman &gt;</a> </h6>
             
-            <ScrollToTop smooth top='500' color='#25B561' />
+            
         </div>
     );
 };
