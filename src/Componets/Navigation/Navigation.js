@@ -29,7 +29,7 @@ const Navigation = () => {
                         <Nav className="align-items-center justify-content-center navigation-bar">
                             <Link to="/" className="home-link ms-1">
                                 {" "}
-                                <strong>Home</strong>{" "}
+                                <strong className="text-success">Home</strong>{" "}
                             </Link>
                             <Link to="donation" className="ms-1">
                                 Donation
