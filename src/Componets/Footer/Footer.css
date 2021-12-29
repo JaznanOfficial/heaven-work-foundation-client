@@ -20,13 +20,13 @@
   -webkit-text-fill-color: transparent;
 }
 .fa-google-plus-g:hover{
-    color: #C00000 !important;
+    color: #23B663 !important;
 }
 .developer{
     text-decoration: none !important;
-
+    
 }
 .developer:hover{
-    color: #23B663 !important;
+    color: #C00000 !important;
     text-decoration: underline !important;
 }

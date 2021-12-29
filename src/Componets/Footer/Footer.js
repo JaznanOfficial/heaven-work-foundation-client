@@ -32,7 +32,7 @@ const Footer = () => {
             
           /></strong></h6>
             </Row>
-            <h6> Developed by <br /><a href="https://md-abdur-rahman-portfolio.netlify.app/" className='text-danger developer' target='_blank'>&lt;&#47; Md Abdur Rahman &gt;</a> </h6>
+            <h6> Developed by <br /><a href="https://md-abdur-rahman-portfolio.netlify.app/" className='text-success developer' target='_blank'>&lt;&#47; Md Abdur Rahman &gt;</a> </h6>
             
         </div>
     );
