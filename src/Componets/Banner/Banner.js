@@ -4,7 +4,7 @@ import banner from './people.png'
 const Banner = () => {
     return (
         <div>
-            <img src={banner} alt="img not found" width='100%' />
+            <img src={banner} alt="img not found" width='90%' />
         </div>
     );
 };

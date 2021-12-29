@@ -1,11 +1,32 @@
 .footer{
-    background-image: linear-gradient(to right, #22B664,#9EBC51);
-    height: 200px;
+    background-image: linear-gradient(to right, #22B664,#749915);
+    /* height: 200px; */
 }
-.heaven{
-    background-image: linear-gradient(to right, #00276e, #04318a);
-}
-.work{
-    -webkit-text-stroke: 0.5px white;
 
+.work{
+    -webkit-text-stroke: 1px white;
+
+}
+.fa-facebook-f:hover{
+    color: #1773EA !important;
+}
+.fa-twitter:hover{
+    color: #00A9E8 !important;
+}
+.fa-instagram:hover{
+
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-google-plus-g:hover{
+    color: #C00000 !important;
+}
+.developer{
+    text-decoration: none !important;
+
+}
+.developer:hover{
+    color: #23B663 !important;
+    text-decoration: underline !important;
 }
