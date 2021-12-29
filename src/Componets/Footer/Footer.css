@@ -1,4 +1,11 @@
 .footer{
     background-image: linear-gradient(to right, #22B664,#9EBC51);
-    height: 500px;
+    height: 200px;
+}
+.heaven{
+    background-image: linear-gradient(to right, #00276e, #04318a);
+}
+.work{
+    -webkit-text-stroke: 0.5px white;
+
 }
