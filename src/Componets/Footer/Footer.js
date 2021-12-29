@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import Typical from 'react-typical';
-import TextAnimation from 'react-animate-text';
+import ScrollToTop from "react-scroll-to-top";
 import './Footer.css'
 
 const Footer = () => {
@@ -27,13 +27,14 @@ const Footer = () => {
                     
             </Col>
             <h6 className='text-center text-danger mt-3'><span className='text-light'><i class="far fa-copyright"></i> All Rights Reserved by </span><strong className='fw-bolder fs-4'><Typical
-            steps={['', 500, 'HEAVENWORK FOUNDATION', 1000]}
+            steps={['', 500, 'HEAVENWORK FOUNDATION', 300]}
             loop={Infinity}
             
           /></strong></h6>
             </Row>
             <h6> Developed by <br /><a href="https://md-abdur-rahman-portfolio.netlify.app/" className='text-success developer' target='_blank'>&lt;&#47; Md Abdur Rahman &gt;</a> </h6>
             
+            <ScrollToTop smooth top='500' color='#25B561' />
         </div>
     );
 };
