@@ -32,9 +32,6 @@ const Navigation = () => {
                                 {" "}
                                 <strong className="text-success">Home</strong>{" "}
                             </Link>
-                            <Link to="donation" className="ms-1">
-                                Donation
-                            </Link>
 
                             <Link to="about">About Us</Link>
 
