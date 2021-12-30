@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 import logo from "./heaven-work.jpg";
@@ -48,6 +49,8 @@ const Navigation = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
+            <MessengerCustomerChat pageId="108379624660473" appId="1591609297868504"/>
         </div>
     );
 };
